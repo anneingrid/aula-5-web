@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 
-export default function Card({title, imagem, preco}){
+export default function Card({id,title, imagem, preco}){
     return(
 
         <div className="card">
