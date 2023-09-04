@@ -6,14 +6,26 @@ img{
 
 .card{
   margin: 0.3rem;
+  height: 33rem !important;
 }
 
-.row{
-  padding: 10px;
-
+.carrossel{
+  margin-bottom: 20px;
 }
 
-.App{
-  background-color: rgb(231, 231, 231);
+h2{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #473212 !important;
+  margin: 10px;
+}
+
+.bg-body{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #F8F4EE !important;
+  background-color:#473212 !important ;
 }
 
