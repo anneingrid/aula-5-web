@@ -1,7 +1,7 @@
 img{
-  height: 19rem;
-  width: 16rem;
-  object-fit: cover;
+  height: 23rem;
+  width: 20rem;
+  object-fit: scale-down;
 }
 
 .card{
@@ -17,7 +17,7 @@ h2{
   text-transform: uppercase;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #473212 !important;
+  color: #000000 !important;
   margin: 10px;
 }
 
@@ -25,7 +25,38 @@ h2{
   text-transform: uppercase;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color: #F8F4EE !important;
-  background-color:#473212 !important ;
+  color: #ffffff !important;
+  background-color:#350056 !important ;
+}
+.App{
+  text-decoration: none;
+  
+
 }
 
+.botaoCompra{
+  background-color:#350056 !important ;
+  font-size: 20px;
+  text-align: center;
+  height: 50px; 
+  display: flex;
+}
+.preco{
+  font-weight: bold;
+  font-size: 30px;
+}
+p{
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title{
+  font-size: 40px;
+  text-align: left;
+  color:#350056 !important ;
+}
+.obs{
+  margin-top: 10px;
+  font-size: 15px;
+  color: rgb(48, 48, 48);
+  
+}

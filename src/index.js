@@ -5,15 +5,17 @@ import reportWebVitals from './reportWebVitals';
 import {createBrowserRouter, RouterProvider} from 'react-router-dom';
 import PaginaInicial from './paginas/PaginaInicial';
 import PaginaDetalhes from './paginas/PaginaDetalhes';
+import NavBar from './NavBar';
 
 
 const roteador = createBrowserRouter([
   {path: '/', element: <PaginaInicial/>},
-  {path: '/item', element: <PaginaDetalhes/>}
+  {path: '/item/:id', element: <PaginaDetalhes/>}
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
+      <NavBar></NavBar>
     <RouterProvider router={roteador}></RouterProvider>
 
   </React.StrictMode>
